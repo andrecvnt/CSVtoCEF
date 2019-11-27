@@ -1,5 +1,5 @@
 # Scenario
-I had to pull data from Altiris e push to ArcSight. To do so, I have schedule a report at Altiris that export a list of assets and their current SEP status. This script takes this CSV file, convert into CEF format and send using syslog to the Arcsight SmartConnector using UDP. 
+I had to pull data from Altiris e push to ArcSight. To do so, I have scheduled a report at Altiris that export a list of assets and their current SEP status. This script takes this CSV file, convert into CEF format and send using syslog to the Arcsight SmartConnector using UDP. 
 
 # Requirements
 This is script is based on the Kamus Hadenes script. In order to script run it is mandatory to install the 
